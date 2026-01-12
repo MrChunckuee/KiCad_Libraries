@@ -1,4 +1,4 @@
-(footprint "Display-OLED_SSD1306_128x64"
+(footprint "OLED-Display_SSD1306_128x64"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			(justify right top)
 		)
 	)
-	(property "Value" "Display-OLED_SSD1306_128x64"
+	(property "Value" "OLED-Display_SSD1306_128x64"
 		(at -13.720206 15.002228 0)
 		(unlocked yes)
 		(layer "F.Fab")
