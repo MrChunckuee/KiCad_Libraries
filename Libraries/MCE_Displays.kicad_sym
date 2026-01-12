@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "OLEDMoule_SSD1306"
+	(symbol "OLED_Display128x64"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" "SSD1306"
+		(property "Value" ""
 			(at 3.81 -7.366 0)
 			(effects
 				(font
@@ -40,8 +40,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Modulo de pantalla OLED"
+			(at 1.016 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "OLEDMoule_SSD1306_1_1"
+		(symbol "OLED_Display128x64_1_1"
 			(rectangle
 				(start -7.874 6.096)
 				(end 7.874 -6.096)
