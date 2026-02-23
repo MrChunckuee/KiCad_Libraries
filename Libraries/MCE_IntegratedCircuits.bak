@@ -58,7 +58,7 @@
     (property "Value" "TXS0108EPW" (at -7.62 -16.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" (at 0 -19.05 0)
+    (property "Footprint" "MCE_Package_SMD:TSSOP-20_4.4x6.5mm_P0.65mm" (at 0 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "www.ti.com/lit/ds/symlink/txs0108e.pdf" (at 0 -21.59 0)
