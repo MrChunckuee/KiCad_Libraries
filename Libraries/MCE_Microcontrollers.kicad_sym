@@ -1337,7 +1337,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -29.21 22.86 0)
+			(at -30.734 23.114 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1345,7 +1345,7 @@
 			)
 		)
 		(property "Value" "PIC18F25K22"
-			(at -22.86 -21.59 0)
+			(at -24.384 -22.098 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1362,7 +1362,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/268/40001412G-1074167.pdf"
-			(at 0 -25.4 0)
+			(at 0 -27.432 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1371,7 +1371,7 @@
 			)
 		)
 		(property "Description" "Microcontroladores de 8 bits - MCU 32KB Flash 1536B RAM 8B nanoWatt"
-			(at 0 0 0)
+			(at -0.508 -30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,8 +1390,8 @@
 		)
 		(symbol "PIC18F25K22_0_1"
 			(rectangle
-				(start -30.48 21.59)
-				(end 30.48 -20.32)
+				(start -31.75 21.59)
+				(end 31.75 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -1402,26 +1402,8 @@
 			)
 		)
 		(symbol "PIC18F25K22_1_1"
-			(pin power_in line
-				(at -34.29 19.05 0)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -34.29 13.97 0)
+				(at -35.56 16.51 0)
 				(length 3.81)
 				(name "~{MCLR}/VPP/RE3"
 					(effects
@@ -1439,7 +1421,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 8.89 0)
+				(at -35.56 8.89 0)
 				(length 3.81)
 				(name "RA0/AN0/C12IN0-"
 					(effects
@@ -1457,7 +1439,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 6.35 0)
+				(at -35.56 6.35 0)
 				(length 3.81)
 				(name "RA1/AN1/C12IN1-"
 					(effects
@@ -1475,7 +1457,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 3.81 0)
+				(at -35.56 3.81 0)
 				(length 3.81)
 				(name "RA2/AN2/C2IN+/VREF-"
 					(effects
@@ -1493,7 +1475,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 1.27 0)
+				(at -35.56 1.27 0)
 				(length 3.81)
 				(name "RA3/AN3/C1IN+/VREF+"
 					(effects
@@ -1511,7 +1493,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -1.27 0)
+				(at -35.56 -1.27 0)
 				(length 3.81)
 				(name "RA4/C1OUT/CCP5/T0CKI"
 					(effects
@@ -1529,7 +1511,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -3.81 0)
+				(at -35.56 -3.81 0)
 				(length 3.81)
 				(name "RA5/AN4/C2OUT/~{SS1}"
 					(effects
@@ -1547,7 +1529,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -6.35 0)
+				(at -35.56 -6.35 0)
 				(length 3.81)
 				(name "RA6/OSC2/CLKO"
 					(effects
@@ -1565,7 +1547,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 -10.16 0)
+				(at -35.56 -10.16 0)
 				(length 3.81)
 				(name "RA7/OSC1/CLKI"
 					(effects
@@ -1583,7 +1565,7 @@
 				)
 			)
 			(pin power_in line
-				(at -34.29 -15.24 0)
+				(at -2.54 -24.13 90)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -1601,7 +1583,25 @@
 				)
 			)
 			(pin power_in line
-				(at -34.29 -17.78 0)
+				(at 0 25.4 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -24.13 90)
 				(length 3.81)
 				(name "VSS"
 					(effects
@@ -1619,7 +1619,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 20.32 180)
+				(at 35.56 20.32 180)
 				(length 3.81)
 				(name "INT0/~{SS2}/CCP4/AN12/RB0"
 					(effects
@@ -1637,9 +1637,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 17.78 180)
+				(at 35.56 17.78 180)
 				(length 3.81)
-				(name "INT1/SCK2/SCL2/C12IN3-/AN10/RB1"
+				(name "INT1/SCK2/SCL2/AN10/RB1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1655,7 +1655,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 15.24 180)
+				(at 35.56 15.24 180)
 				(length 3.81)
 				(name "INT2/SDI2/SDA2/AN8/RB2"
 					(effects
@@ -1673,7 +1673,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 12.7 180)
+				(at 35.56 12.7 180)
 				(length 3.81)
 				(name "SDO0/CCP2/C12IN2-/AN9/RB3"
 					(effects
@@ -1691,7 +1691,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 10.16 180)
+				(at 35.56 10.16 180)
 				(length 3.81)
 				(name "IOC/AN11/RB4"
 					(effects
@@ -1709,7 +1709,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 7.62 180)
+				(at 35.56 7.62 180)
 				(length 3.81)
 				(name "IOC/CCP3/AN13/RB5"
 					(effects
@@ -1727,7 +1727,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 5.08 180)
+				(at 35.56 5.08 180)
 				(length 3.81)
 				(name "PGC/IOC/TX2/RB6"
 					(effects
@@ -1745,7 +1745,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 2.54 180)
+				(at 35.56 2.54 180)
 				(length 3.81)
 				(name "PGD/IOC/RX2/RB7"
 					(effects
@@ -1763,7 +1763,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -1.27 180)
+				(at 35.56 -1.27 180)
 				(length 3.81)
 				(name "RC0"
 					(effects
@@ -1781,7 +1781,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -3.81 180)
+				(at 35.56 -3.81 180)
 				(length 3.81)
 				(name "CCP2/RC1"
 					(effects
@@ -1799,7 +1799,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -6.35 180)
+				(at 35.56 -6.35 180)
 				(length 3.81)
 				(name "CCP1/AN14/RC2"
 					(effects
@@ -1817,7 +1817,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -8.89 180)
+				(at 35.56 -8.89 180)
 				(length 3.81)
 				(name "SCK1/SCL1/AN15/RC3"
 					(effects
@@ -1835,7 +1835,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -11.43 180)
+				(at 35.56 -11.43 180)
 				(length 3.81)
 				(name "SDI1/SDA1/AN16/RC4"
 					(effects
@@ -1853,7 +1853,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -13.97 180)
+				(at 35.56 -13.97 180)
 				(length 3.81)
 				(name "SDO1/AN17/RC5"
 					(effects
@@ -1871,7 +1871,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -16.51 180)
+				(at 35.56 -16.51 180)
 				(length 3.81)
 				(name "TX1/CCP3/AN18/RC6"
 					(effects
@@ -1889,7 +1889,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 34.29 -19.05 180)
+				(at 35.56 -19.05 180)
 				(length 3.81)
 				(name "RX1/AN19/RC7"
 					(effects
