@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 3.81 -7.366 0)
+		(property "Value" "OLED Display"
+			(at 0.508 -7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
