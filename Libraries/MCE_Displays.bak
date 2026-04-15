@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Modulo de pantalla OLED"
-			(at 1.016 -7.366 0)
+			(at 0.508 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
