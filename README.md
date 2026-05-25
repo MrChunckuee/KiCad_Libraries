@@ -38,3 +38,6 @@ git clone https://github.com/MrChunckuee-Electronics/KiCad_Libraries.git
 
 ### 4. Vincular Modelos 3D (Opcional)
 * Para que los modelos 3D se muestren correctamente, asegúrate de configurar la ruta relativa en las propiedades del footprint de KiCad o añade la variable de entorno correspondiente apuntando a la carpeta 3D_Models.
+
+## Web
+Puedes consultar la lista completa de componentes en: https://mrchunckuee.blogspot.com/p/kicad.html
