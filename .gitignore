@@ -1,9 +1,53 @@
-#----------------------------------------------------------------------
+# ==========================================================================
+# GITIGNORE
 # Autor: Pedro Sanchez Ramirez
-# Email: mrchunckuee.psr@gmail.com
-#----------------------------------------------------------------------
+# ==========================================================================
+
+
+# ==========================================================================
+# .gitignore para KiCad
+# ==========================================================================
+# Archivos temporales y respaldos
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*-cache*
+*_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+*.history
+
+# Preferencias locales del usuario
+# Guarda ajustes específicos de tu pantalla o sesión
+*.kicad_prl
+
+# Archivos de Automatización y Netlists
+*.net
+*.dsn
+*.ses
+*.cmp
+
+# Reportes y Archivos de Fabricación
+# Descomentar lo que no se desea guardar en el control de versiones.
+# *.gbr
+# *.drl
+# *.rpt
+# *.xml
+# *.csv
+# *.tsv
+# fp-info-cache
+
+# No incluir esta libreria
+MCE_Logos.pretty
 
 #----------------------------------------------------------------------
-# Ignorar archivos de compilación XC8/C18
-MCE_Logos.pretty
+# ignore files from OS
+*desktop.ini
+.DS_Store
+Thumbs.db
+#----------------------------------------------------------------------
 
