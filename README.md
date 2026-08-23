@@ -5,13 +5,13 @@ Este repositorio contiene una colección de librerías personalizadas para **KiC
 
 ## Contenido del Repositorio
 El repositorio está organizado de la siguiente manera:
-* **`Symbols/`** (`.kicad_sym`): Librerías de símbolos para el editor de esquemáticos.
-* **`Footprints/`** (`.pretty`): Directorios que contienen las huellas de los componentes para el diseño de la PCB.
-* **`3D_Models/`** (`.3dshapes`): Modelos en formatos STEP/WRL para la visualización en 3D de la placa.
+* **`symbols/`** (`.kicad_sym`): Librerías de símbolos para el editor de esquemáticos.
+* **`footprints/`** (`.pretty`): Directorios que contienen las huellas de los componentes para el diseño de la PCB.
+* **`3dmodels/`** (`.3dshapes`): Modelos en formatos STEP/WRL para la visualización en 3D de la placa.
 
 
 ## Compatibilidad
-Las librerías han sido creadas y probadas en **KiCad versión [9.0]**. 
+Las librerías han sido creadas y probadas en **KiCad versión [10.0]**. 
 *Nota: Si utilizas una versión muy antigua de KiCad, es posible que los archivos no sean compatibles.*
 
 ---
@@ -36,7 +36,7 @@ git clone https://github.com/MrChunckuee-Electronics/KiCad_Libraries.git
 * Asígnale un alias (por ejemplo, MrChunckuee_Footprints).
 
 ### 4. Vincular Modelos 3D (Opcional)
-* Para que los modelos 3D se muestren correctamente, asegúrate de configurar la ruta relativa en las propiedades del footprint de KiCad o añade la variable de entorno correspondiente apuntando a la carpeta 3D_Models.
+* Para que los modelos 3D se muestren correctamente, asegúrate de configurar la ruta relativa en las propiedades del footprint de KiCad o añade la variable de entorno correspondiente apuntando a la carpeta 3dmodels.
 
 ## Blog / WEB
 Puedes consultar la lista completa de componentes revisar: https://mrchunckuee.blogspot.com/p/kicad.html
