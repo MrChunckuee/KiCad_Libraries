@@ -1,14 +1,14 @@
 (footprint "Pad_D2.0mm_Hole1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "faaad944-f9f3-4bf0-b5c8-1892ddf98ac1")
+		(uuid "0194610b-e60b-4feb-aeeb-8296b1a7478a")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "906b9145-d68d-4a13-99df-6305179c67b5")
+		(uuid "7f03270f-31e9-4ed5-84a5-0e0a18df442e")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7dac0700-4e52-49fc-9833-c66ae5724337")
+		(uuid "8d48a708-27bf-48f7-b407-86c2032fa9db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "539550e7-0566-4e19-aa11-5868359ee961")
+		(uuid "ab7658a7-092a-4426-99e7-6014c5944940")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,13 +54,14 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "afcda324-e95a-4c87-ba49-138bf32fdf4c")
+		(uuid "fe73cbfd-cf9b-4a87-a967-fdedfe8074da")
 	)
 	(embedded_fonts no)
 )
