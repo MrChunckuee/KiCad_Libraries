@@ -1420,7 +1420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ALFATEK_Package_SMD:TO-263-2"
+		(property "Footprint" "MCE_Package_SMD:TO-263-2"
 			(at 5.334 -2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
