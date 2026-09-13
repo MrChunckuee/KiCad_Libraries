@@ -264,7 +264,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -3.81 5.715 0)
+			(at -6.35 5.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -274,7 +274,7 @@
 			)
 		)
 		(property "Value" "AP2139AK-3.3TRG1"
-			(at 1.016 -6.35 0)
+			(at 1.016 -5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -341,8 +341,8 @@
 		)
 		(symbol "AP2139AK-3.3TRG1_0_1"
 			(rectangle
-				(start -5.08 4.445)
-				(end 5.08 -5.08)
+				(start -6.858 4.445)
+				(end 6.858 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -354,7 +354,7 @@
 		)
 		(symbol "AP2139AK-3.3TRG1_1_1"
 			(pin power_in line
-				(at -7.62 2.54 0)
+				(at -9.398 2.54 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -372,7 +372,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -390,7 +390,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -1.27 0)
+				(at -9.398 -1.27 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -408,7 +408,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 7.62 -1.27 180)
+				(at 9.398 -1.27 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -427,7 +427,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 2.54 180)
+				(at 9.398 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
